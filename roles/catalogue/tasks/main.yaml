@@ -10,8 +10,8 @@
    
 - name: Copying mongo repos to install mongod client Server
   ansible.builtin.copy:
-  src: mongodb.repo
-  dest: /etc/yum.repos.d/mongo.repo
+    src: mongodb.repo
+    dest: /etc/yum.repos.d/mongo.repo
 
 - name: Install mongod client Server
   ansible.builtin.dnf:

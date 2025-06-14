@@ -1,0 +1,3 @@
+CART_HOST: cart.84dev.store
+USER_HOST: user.84dev.store
+RABBITMQ_HOST: rabbitmq.84dev.store

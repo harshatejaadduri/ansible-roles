@@ -1,3 +1,6 @@
+- name: installing python
+  ansible.builtin.command: dnf install python3 gcc python3-devel -y
+
 - name: app setup
   include_role:
     name: common

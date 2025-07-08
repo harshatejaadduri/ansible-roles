@@ -37,6 +37,6 @@
   # ignore_unreachable: true
 
 - name: "restarting {{ component }}"
-  include roles:
+  include_role:
     name: common
     tasks_from: systemd

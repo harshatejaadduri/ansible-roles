@@ -1,7 +1,7 @@
 #!/bin/bash
 
 AMI_ID="ami-09c813fb71547fc4f"
-SG_ID="sg-0b6068446e9d68cda"
+SG_ID="sg-0ed0b4b581bc7480d"
 Instance=("mongodb" "user" "cart" "catalogue" "redis" "mysql" "shipping" "rabbitmq" "payment" "dispatch" "frontend")
 ZONE_ID="Z0488471JVN0WTD7CBXR"
 DOMAIN_NAME="84dev.store"
